@@ -4,6 +4,13 @@ A composer library of tools to help build and manage an [xml-authoring-project](
 Requires:
 * Composer installed globally
 
+# Install via Composer
+
+Run:
+
+```
+composer require forikal-uk/xml-authoring-tools
+```
 
 Dev Requires
 * Git
