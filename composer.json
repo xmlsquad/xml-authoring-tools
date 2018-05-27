@@ -1,5 +1,7 @@
 {
-    "require": {
-        "symfony/console": "~3.4"
-    }
+    "name": "forikal-uk/xml-authoring-tools",
+    "description": "PHP Console commands for managing xml files.",
+    "type": "library",
+    "license": "Apache-2.0",
+    "require": {}
 }
