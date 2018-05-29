@@ -3,5 +3,7 @@
     "description": "PHP Console commands for managing xml files.",
     "type": "library",
     "license": "Apache-2.0",
-    "require": {}
+    "require": {
+        "symfony/console": "~3.4"
+    }
 }
