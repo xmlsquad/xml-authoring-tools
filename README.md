@@ -32,7 +32,7 @@ Ensure we have run composer update.
 Then, run:
 
 ```
-$ php bin/application.php 
+$ php bin/xmlauthor.php
 ```
 
 
