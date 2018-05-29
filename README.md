@@ -62,6 +62,41 @@ vendor/bin/phpunit
 git push origin feature-XXX
 ```
 
+### Building own command
+
+```php
+# src/Command/NewCommand.php
+namespace Forikal\PackageName\Command;
+
+use Forikal\Tools\Command\AbstractCommand;
+
+class NewCommand extends AbstractCommand
+{
+    public function __construct()
+    {
+        # Specify command's name
+        parent::__construct('new-command');
+    }
+
+    /**
+     * {@inheritdoc}
+     */
+    protected function execute(InputInterface $input, OutputInterface $output)
+    {
+        try {
+            $configFilename = $input->getOption('configFilename');
+            $configOptions = $this->getConfigOptions($configFilename);
+
+            dump($configOptions);
+        } catch (FileNotFoundException $e) {
+            $output->writeln(
+                $e->getMessage()
+            );
+        }
+    }
+}
+```
+
 ## Test
 
 ```bash
