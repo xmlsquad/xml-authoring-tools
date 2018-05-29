@@ -32,7 +32,7 @@ Ensure we have run composer update.
 Then, run:
 
 ```
-$ php src/application.php 
+$ php bin/application.php 
 ```
 
 
