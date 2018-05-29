@@ -32,11 +32,8 @@ Ensure we have run composer update.
 Then, run:
 
 ```
-
+$ php src/application.php 
 ```
-
-
-
 
 
 # Developing new commands
