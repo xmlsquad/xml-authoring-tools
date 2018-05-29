@@ -1,0 +1,12 @@
+#!/usr/bin/env php
+<?php
+set_time_limit(0);
+
+$vendor = __DIR__;
+while (!file_exists($vendor.'/vendor')) {
+    $vendor = dirname($vendor);
+}
+require $vendor.'/vendor/autoload.php';
+
+$application = new \Forikal\Tools\Application();
+$application->run();
