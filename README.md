@@ -43,18 +43,16 @@ We assume that you have installed the requirments above, and:
 * [Git SCM](https://git-scm.com/) 
 * [Symfony 3.4 Console](https://symfony.com/doc/3.4/components/console.html)
 
-The command should be written to run in a Symfony 3.4 console application.
-
-See [Symfony's documentation on creating commands](https://symfony.com/doc/3.4/console.html).
 
 ## Requirements
 
 New commands should:
 
-* have their own git repository project
+* be written to run in a Symfony 3.4 console application. See [Symfony's documentation on creating commands](https://symfony.com/doc/3.4/console.html).have their own git repository project
 * have tests (one or more of PHPUnit/Behat/etc) stored within the project repository
 * be compatible with Symfony 3.4, and 
 * make good use of the `symfony/console` project. i.e. `$ composer require symfony/console:~3.4`
+* adhere to the [convention that allows the command to be automatically registered](https://symfony.com/doc/3.4/console.html#registering-the-command).
 * be installed by end users as a composer package
 * reuse existing libraries where possible. Such as;
   *  [PHP's Standard PHP Library](http://php.net/manual/en/book.spl.php) 
