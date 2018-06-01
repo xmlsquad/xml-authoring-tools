@@ -17,16 +17,14 @@
         }
     },
     "require": {
-        "php": ">=5.5.9",
-        "symfony/console": "^3.4",
-        "symfony/filesystem": "^3.4",
-        "symfony/yaml": "^3.4"
+        "php": ">=7.1",
+        "symfony/console": "^3.4"
     },
     "require-dev": {
-        "symfony/var-dumper": "^3.4",
-        "phpunit/phpunit": "^5.6"
+        "phpunit/phpunit": "^7.1"
     },
     "suggest": {
+        "forikal-uk/xmlauthor-example-command": "To see example how to use AbstractCommand",
         "forikal-uk/ping-drive": "Reports its attempts at locating and reading the contents of a Google Drive folder or file",
         "forikal-uk/gsheet-to-xml": "Outputs the contents in the form of Xml from Google Sheet or Google Drive folder of sheets"
     },
