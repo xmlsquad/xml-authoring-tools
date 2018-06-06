@@ -19,9 +19,9 @@ class Application extends BaseApplication
             );
         }
 
-        if (class_exists('Forikal\PingDrive\Commands\PingDriveCommand')) {
+        if (class_exists('Forikal\PingDrive\Command\PingDriveCommand')) {
             $this->add(
-                new \Forikal\PingDrive\Commands\PingDriveCommand()
+                new \Forikal\PingDrive\Command\PingDriveCommand()
             );
         }
 
