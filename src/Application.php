@@ -7,7 +7,7 @@ use Symfony\Component\Console\Application as BaseApplication;
 class Application extends BaseApplication
 {
     const NAME = 'Forikal Tools';
-    const VERSION = '0.1.2';
+    const VERSION = '0.2.1';
 
     public function __construct($name = self::NAME, $version = self::VERSION)
     {
@@ -28,6 +28,12 @@ class Application extends BaseApplication
         if (class_exists('Forikal\GsheetXml\Command\GsheetToXmlCommand')) {
             $this->add(
                 new \Forikal\GsheetXml\Command\GsheetToXmlCommand()
+            );
+        }
+
+        if (class_exists('Forikal\CaptureLookups\Command\CaptureLookupsCommand')) {
+            $this->add(
+                new \Forikal\CaptureLookups\Command\CaptureLookupsCommand()
             );
         }
     }

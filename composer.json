@@ -26,7 +26,8 @@
     "suggest": {
         "forikal-uk/xmlauthor-example-command": "To see example how to use AbstractCommand",
         "forikal-uk/ping-drive": "Reports its attempts at locating and reading the contents of a Google Drive folder or file",
-        "forikal-uk/gsheet-to-xml": "Outputs the contents in the form of Xml from Google Sheet or Google Drive folder of sheets"
+        "forikal-uk/gsheet-to-xml": "Outputs the contents in the form of Xml from Google Sheet or Google Drive folder of sheets",
+        "forikal-uk/capture-lookups": "Grabs Google Sheets and stores their data as CSV files"
     },
     "extra": {
         "branch-alias": null
