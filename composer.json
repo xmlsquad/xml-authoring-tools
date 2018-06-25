@@ -17,6 +17,10 @@
         }
     },
     "require": {
+        "forikal-uk/xmlauthor-example-command": "^0.2",
+        "forikal-uk/ping-drive": "^0.2",
+        "forikal-uk/gsheet-to-xml": "^0.2",
+        "forikal-uk/capture-lookups": "^0.2",
         "php": ">=7.1",
         "symfony/console": "^3.4"
     },
