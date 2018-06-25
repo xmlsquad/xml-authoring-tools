@@ -1,6 +1,6 @@
 # xml-authoring-tools
 
-A composer library of tools to help build and manage an [xml-authoring-project](https://github.com/forikal-uk/xml-authoring-project).
+A composer library of tools to help build and manage an [xml-authoring-project](https://github.com/xmlsquad/xml-authoring-project).
 
 In most cases you will run the tools in the context of an xml authoring project.
 
@@ -23,7 +23,7 @@ In most cases you will run the tools in the context of an xml authoring project.
 * Require tools library:
  
     ```bash 
-    composer require forikal-uk/xml-authoring-tools
+    composer require xmlsquad/xml-authoring-tools
     ```
     
 * List available commands:
@@ -36,7 +36,7 @@ In most cases you will run the tools in the context of an xml authoring project.
 
 ```bash
 cd ~/
-git clone https://github.com/forikal-uk/xml-authoring-tools.git
+git clone https://github.com/xmlsquad/xml-authoring-tools.git
 cd xml-authoring-tools
 
 # Install

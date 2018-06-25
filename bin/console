@@ -8,5 +8,5 @@ while (!file_exists($vendor.'/vendor')) {
 }
 require $vendor.'/vendor/autoload.php';
 
-$application = new \Forikal\Tools\Application();
+$application = new \XmlSquad\Tools\Application();
 $application->run();

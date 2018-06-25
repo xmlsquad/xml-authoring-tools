@@ -1,5 +1,5 @@
 {
-    "name": "forikal-uk/xml-authoring-tools",
+    "name": "xmlsquad/xml-authoring-tools",
     "description": "PHP Console commands for managing xml files.",
     "type": "library",
     "license": "Apache-2.0",
@@ -8,19 +8,19 @@
     ],
     "autoload": {
         "psr-4": {
-            "Forikal\\Tools\\": "src/"
+            "XmlSquad\\Tools\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Forikal\\Tools\\Tests\\": "tests/"
+            "XmlSquad\\Tools\\Tests\\": "tests/"
         }
     },
     "require": {
-        "forikal-uk/xmlauthor-example-command": "dev-master",
-        "forikal-uk/ping-drive": "dev-master",
-        "forikal-uk/gsheet-to-xml": "dev-master",
-        "forikal-uk/capture-lookups": "dev-master",
+        "xmlsquad/xmlauthor-example-command": "dev-master",
+        "xmlsquad/ping-drive": "dev-master",
+        "xmlsquad/gsheet-to-xml": "dev-master",
+        "xmlsquad/capture-lookups": "dev-master",
         "php": ">=7.1",
         "symfony/console": "^3.4"
     },
@@ -28,10 +28,10 @@
         "phpunit/phpunit": "^7.1"
     },
     "suggest": {
-        "forikal-uk/xmlauthor-example-command": "To see example how to use AbstractCommand",
-        "forikal-uk/ping-drive": "Reports its attempts at locating and reading the contents of a Google Drive folder or file",
-        "forikal-uk/gsheet-to-xml": "Outputs the contents in the form of Xml from Google Sheet or Google Drive folder of sheets",
-        "forikal-uk/capture-lookups": "Grabs Google Sheets and stores their data as CSV files"
+        "xmlsquad/xmlauthor-example-command": "To see example how to use AbstractCommand",
+        "xmlsquad/ping-drive": "Reports its attempts at locating and reading the contents of a Google Drive folder or file",
+        "xmlsquad/gsheet-to-xml": "Outputs the contents in the form of Xml from Google Sheet or Google Drive folder of sheets",
+        "xmlsquad/capture-lookups": "Grabs Google Sheets and stores their data as CSV files"
     },
     "extra": {
         "branch-alias": null

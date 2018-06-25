@@ -1,39 +1,39 @@
 <?php
 
-namespace Forikal\Tools;
+namespace XmlSquad\Tools;
 
 use Symfony\Component\Console\Application as BaseApplication;
 
 class Application extends BaseApplication
 {
-    const NAME = 'Forikal Tools';
+    const NAME = 'XmlSquad Tools';
     const VERSION = '0.2.1';
 
     public function __construct($name = self::NAME, $version = self::VERSION)
     {
         parent::__construct($name, $version);
 
-        if (class_exists('Forikal\Example\Command\HelloWorldCommand')) {
+        if (class_exists('XmlSquad\Example\Command\HelloWorldCommand')) {
             $this->add(
-                new \Forikal\Example\Command\HelloWorldCommand()
+                new \XmlSquad\Example\Command\HelloWorldCommand()
             );
         }
 
-        if (class_exists('Forikal\PingDrive\Command\PingDriveCommand')) {
+        if (class_exists('XmlSquad\PingDrive\Command\PingDriveCommand')) {
             $this->add(
-                new \Forikal\PingDrive\Command\PingDriveCommand()
+                new \XmlSquad\PingDrive\Command\PingDriveCommand()
             );
         }
 
-        if (class_exists('Forikal\GsheetXml\Command\GsheetToXmlCommand')) {
+        if (class_exists('XmlSquad\GsheetXml\Command\GsheetToXmlCommand')) {
             $this->add(
-                new \Forikal\GsheetXml\Command\GsheetToXmlCommand()
+                new \XmlSquad\GsheetXml\Command\GsheetToXmlCommand()
             );
         }
 
-        if (class_exists('Forikal\CaptureLookups\Command\CaptureLookupsCommand')) {
+        if (class_exists('XmlSquad\CaptureLookups\Command\CaptureLookupsCommand')) {
             $this->add(
-                new \Forikal\CaptureLookups\Command\CaptureLookupsCommand()
+                new \XmlSquad\CaptureLookups\Command\CaptureLookupsCommand()
             );
         }
     }
