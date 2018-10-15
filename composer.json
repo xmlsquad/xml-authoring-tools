@@ -17,10 +17,10 @@
         }
     },
     "require": {
-        "xmlsquad/xmlauthor-example-command": "dev-master",
-        "xmlsquad/ping-drive": "dev-master",
-        "xmlsquad/gsheet-to-xml": "dev-master",
-        "xmlsquad/capture-lookups": "dev-master",
+        "xmlsquad/xmlauthor-example-command": "0.3.3",
+        "xmlsquad/ping-drive": "0.3.3",
+        "xmlsquad/gsheet-to-xml": "0.3.3",
+        "xmlsquad/capture-lookups": "0.3.3",
         "php": ">=7.1",
         "symfony/console": "^3.4"
     },
