@@ -35,5 +35,6 @@
     },
     "extra": {
         "branch-alias": null
-    }
+    },
+    "minimum-stability": "dev"
 }
